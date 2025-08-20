@@ -1,4 +1,5 @@
 import requests
+import webbrowser
 
 def main():
     url = "https://icanhazdadjoke.com/"
@@ -11,5 +12,11 @@ def main():
     except Exception as e:
         print(f"Erro ao buscar piada: {e}")
 
+def abrir_link():
+    url = "https://i.imgur.com/4AiXzf8.jpeg"  # link de uma imagem engraçada
+    webbrowser.open(url)
+
 if __name__ == "__main__":
     main()
+    abrir_link()
+
