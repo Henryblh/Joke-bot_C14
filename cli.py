@@ -13,7 +13,7 @@ def main():
         print(f"Erro ao buscar piada: {e}")
 
 def abrir_link():
-    url = "https://i.imgur.com/4AiXzf8.jpeg"  # link de uma imagem engraçada
+    url = "https://pointerpointer.com/"  # link de uma imagem engraçada
     webbrowser.open(url)
 
 if __name__ == "__main__":
